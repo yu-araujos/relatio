@@ -98,10 +98,10 @@
             <div class="col text-center title">
               <h1>Sobre o <span>fundador</span></h1>
             </div>
-            <div id="sobre" class="carousel slide">
+            <div id="sobre-infos" class="carousel slide">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#sobre" data-bs-slide-to="0" class="active d-none d-md-block" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#sobre" data-bs-slide-to="1" class="d-none d-md-block" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#sobre-infos" data-bs-slide-to="0" class="active d-none d-md-block" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#sobre-infos" data-bs-slide-to="1" class="d-none d-md-block" aria-label="Slide 2"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -131,11 +131,11 @@
                   </ul>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#sobre" data-bs-slide="Anterior">
+              <button class="carousel-control-prev" type="button" data-bs-target="#sobre-infos" data-bs-slide="Anterior">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Anterior</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#sobre" data-bs-slide="Próximo">
+              <button class="carousel-control-next" type="button" data-bs-target="#sobre-infos" data-bs-slide="Próximo">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Próximo</span>
               </button>
@@ -172,7 +172,28 @@
               <h5 class="card-title">Gestão de Tráfego Pago (Anúncios Online)</h5>
               <p class="card-text">O tráfego pago é a forma mais econômica de entregar seu conteúdo ou serviço para pessoas qualificadas, 
                 através de anúncios patrocinados no Instagram, Facebook e Google, com estratégias para atrair mais lojistas para sua marca.</p>
-              <a href="#" class="btn btn-primary text">Ver Portfólio</a>
+              <!-- <a href="#" class="btn btn-primary text">Ver Portfólio</a> -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#anuncio-online">
+                Ver Portfólio
+              </button>
+
+              <div class="modal fade" id="anuncio-online" tabindex="-1" aria-labelledby="anuncio-online" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="anuncio-online-label">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -235,6 +256,20 @@
       </div>
     </div>
   </section>
+
+  <footer>
+    <div class="container-fluid footer mt-4">
+      <div class="text-center pt-3">
+        <a class="navbar-brand">
+          <img src="./assets/imgs/logo_.svg" alt="">
+        </a>
+      </div>
+      <div class="text-center mt-3">
+        <p class="m-0">2023 © Relatio</p>
+        <p>Desenvolvido com <span><i class="fa-solid fa-heart"></i> </span> pela <a href="https://desenvo.dev" class="link-desenvo">Desenvo</a></p>
+      </div>
+    </div>
+  </footer>
 
 
   <a href="#"

@@ -1,5 +1,19 @@
+.active-header {
+  transition: 0.5s ease;
+  background-color: $white !important;
+  z-index: 1000;
+
+  .navbar-brand {
+    transition: 0.5s ease;
+    color: $secondary !important;
+  }
+}
+
 .custom-navbar {
   border-bottom: 2px solid #73A1AD;
+  position: fixed;
+  width: 100%;
+
 
   .nav-link {
     text-transform: uppercase;
@@ -36,3 +50,9 @@
     }
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .custom-navbar {
+    background: $white;
+  }
+} 

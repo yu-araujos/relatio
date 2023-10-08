@@ -25,6 +25,7 @@ $thirdy: #2D4348;
 body {
   font-family: 'Montserrat', sans-serif;
   color: $thirdy;
+  overflow-x: hidden;
 
   ul {
     list-style: none;
@@ -39,3 +40,4 @@ body {
 @import './partials/main';
 @import './partials/sobre';
 @import './partials/services';
+@import './partials/contact';

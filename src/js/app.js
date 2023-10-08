@@ -1,3 +1,14 @@
+// Add style on header when scroll
+function scrollHeader() {
+  const nav = document.getElementById('nav');
+
+  if(this.scrollY >= 5) nav.classList.add('active-header'); 
+  else nav.classList.remove('active-header');
+}
+
+window.addEventListener('scroll', scrollHeader);
+
+// title animation
 document.addEventListener('DOMContentLoaded',function(event){
   // array with texts to type in typewriter
   let dataText = [ 

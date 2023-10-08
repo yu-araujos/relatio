@@ -1,0 +1,79 @@
+.contact {
+  border-radius: 15px;
+  
+  .contact-informations {
+    height: 350px;
+    background: #73A1AD;
+    border-radius: 15px;
+  
+    h1 {
+      font-family: "Athena";
+      padding: 40px;
+      text-transform: uppercase;
+      color: $white;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 50px;
+        height: 2px;
+        left: 40px;
+        background: $primary;
+        border-radius: 15px;
+      }
+    }
+
+    i {
+      color: $white;
+    }
+
+    .contact-link {
+      text-decoration: none;
+      color: $white;
+      position: relative;
+
+      &::after {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        right: 0;
+        bottom: -10px;
+        background: $primary;
+        border-radius: 15px;
+      }
+    }
+
+    .socials {
+      i {
+        font-size: 2rem;
+        &:hover {
+          scale: 1.2;
+          transition: all .2s ease-in-out;
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .contact-form {
+    input, textarea {
+      width: 100%;
+      height: 50px;
+      border-bottom: 1px solid $primary;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      outline-color: $primary;
+    }
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

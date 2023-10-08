@@ -23,6 +23,10 @@
 	}
 }
 
+.main {
+  padding-top: 100px;
+}
+
 .title-main {
   font-size: 3rem;
   font-weight: 700;
@@ -40,7 +44,7 @@
   font-weight: 500;
   border: 2px solid $primary;
   border-radius: 15px;
-  height: 175px;
+  height: 200px;
 }
 
 .botao-whatsapp {
@@ -57,3 +61,9 @@
   box-shadow: 1px 1px 2px #888;
   z-index:1000;
 }
+
+@media only screen and (max-width: 700px) {
+  .title-main {
+    font-size: 2rem;
+  }
+} 

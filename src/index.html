@@ -8,9 +8,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Relatio | Marketing Digital</title>
 </head>
+
 <body>
-  <header>
-    <nav class="custom-navbar navbar navbar navbar-expand-md" arial-label="Furni navigation bar">
+  <header id="header">
+    <nav class="custom-navbar navbar navbar navbar-expand-md" arial-label="Furni navigation bar" id="nav">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="#">
           <img src="./assets/imgs/logo_.svg" alt="">
@@ -22,17 +23,17 @@
 
 				<div class="collapse navbar-collapse" id="navbarRelatio">
 					<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0 gap-lg-3">
-						<li><a class="nav-link" href="#">Início</a></li>
-						<li><a class="nav-link" href="#">Sobre</a></li>
-						<li><a class="nav-link" href="#">Serviços</a></li>
-						<li><a class="nav-link" href="#">Contato</a></li>
+						<li><a class="nav-link" href="#inicio">Início</a></li>
+						<li><a class="nav-link" href="#sobre">Sobre</a></li>
+						<li><a class="nav-link" href="#servicos">Serviços</a></li>
+						<li><a class="nav-link" href="#contato">Contato</a></li>
 					</ul>
 				</div>
 			</div>
 		</nav>
   </header>
 
-  <main>
+  <main class="main" id="inicio">
     <div class="background d-none d-md-flex justify-content-between">
       <img src="./assets/imgs/blob-azul.png" alt="Bolha Azul - background">
       <img  src="./assets/imgs/blob-laranja.png" alt="Bolha Laranja - background">
@@ -43,7 +44,7 @@
           <h1 class="title-main">NOSSO COMPROMISSO É COM O <span>SUCESSO</span> DA SUA EMPRESA</h1>
         </div>
       </div>
-      <div class="row mt-5 align-items-center">
+      <div class="row mt-lg-5 align-items-center">
         <div class="col-12 col-md-12 col-lg-1 me-md-5 mb-lg-0 mb-3 text-center">
           <span class="stars m-0">❋❋❋❋❋</span>
         </div>
@@ -53,16 +54,16 @@
           </svg>
         </div>
         <div class="col col-lg-6 ms-lg-5">
-          <p class="text-main p-4 m-0"></p>
+          <p class="text-main p-3 m-0"></p>
           <div class="text-center mt-3">
-            <a href="#" class="btn btn-primary text">Conhecer Serviços</a>
+            <a href="#servicos" class="btn btn-primary text">Conhecer Serviços</a>
           </div>
         </div>
       </div>
     </div>
   </main>
 
-  <section>
+  <section id="sobre">
     <div class="container mt-5">
       <div class="row">
         <div class="col text-center title">
@@ -145,7 +146,7 @@
     </div>
   </section>
 
-  <section>
+  <section id="servicos">
     <div class="container mt-4">
       <div class="row">
         <div class="col text-center title">
@@ -172,6 +173,62 @@
               <p class="card-text">O tráfego pago é a forma mais econômica de entregar seu conteúdo ou serviço para pessoas qualificadas, 
                 através de anúncios patrocinados no Instagram, Facebook e Google, com estratégias para atrair mais lojistas para sua marca.</p>
               <a href="#" class="btn btn-primary text">Ver Portfólio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container mt-5">
+      <div class="row p-3 p-md-5 contact">
+        <div class="col-12 col-lg-5 contact-informations">
+          <h1>Entre em contato!</h1>
+          <div class="row p-2 ms-4 ms-md-1 mb-4">
+            <div class="col">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+5571999999999" class="ms-3 contact-link">(11) 99999-9999</a>
+            </div>
+          </div>
+          <div class="row p-2 ms-4 ms-md-1 mb-4">
+            <div class="col">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:email@provedor.com.br" class="ms-3 contact-link">email@contato.com</a>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-12 socials d-flex gap-5 justify-content-center">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-7 contact-form">
+          <div class="row mt-4">
+            <div class="col-6">
+              <input type="text" name="" id="" placeholder="Nome">
+            </div>
+            <div class="col-6">
+              <input type="text" name="" id="" placeholder="Sobrenome">
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-6">
+              <input type="number" name="" id="" placeholder="Telefone">
+            </div>
+            <div class="col-6">
+              <input type="email" name="" id="" placeholder="E-mail">
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-12">
+              <textarea name="" id="" cols="75" placeholder="Mensagem"></textarea>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-12 text-center">
+              <a href="#" class="btn btn-primary text px-4 float-lg-end">Enviar</a>
             </div>
           </div>
         </div>

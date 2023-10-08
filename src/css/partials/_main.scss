@@ -1,0 +1,59 @@
+.background {
+  user-select: none;
+  position: absolute;
+  width: 100%;
+  margin-top: 100px;
+  z-index: -1;
+  img {
+    height: 100%;
+    width: 25%;
+    animation: float 6s ease-in-out infinite;
+  }
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+    transform: translatey(-20px);
+	}
+	100% {
+    transform: translatey(0px);
+	}
+}
+
+.title-main {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.stars {
+  color: $primary;
+  font-size: 2rem;
+  font-weight: 500;
+  user-select: none;
+}
+
+.text-main {
+  font-size: 1.75rem;
+  font-weight: 500;
+  border: 2px solid $primary;
+  border-radius: 15px;
+  height: 175px;
+}
+
+.botao-whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index:1000;
+}

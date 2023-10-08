@@ -1,0 +1,41 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@font-face {
+  font-family: "Athena";
+  src: url('../assets/fonts/Athena.ttf')
+}
+
+
+$primary: #E96D0B;
+$secondary: #0C6980;
+$thirdy: #2D4348;
+
+.btn-primary {
+  background: $primary;
+  border: none;
+  scale: 1;
+  transition: all .2s ease-in-out;
+
+  &:hover {
+    background: #FF4900;
+    scale: 1.125;
+    transition: all .2s ease-in-out;
+  }
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: $thirdy;
+
+  ul {
+    list-style: none;
+  }
+
+  span {
+    color: $primary;
+  }
+}
+
+@import './partials/nav';
+@import './partials/main';
+@import './partials/sobre';
+@import './partials/services';

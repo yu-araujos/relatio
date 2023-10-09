@@ -1,0 +1,27 @@
+.accordion-button {
+  color: $thirdy;
+  font-weight: 600;
+}
+
+.accordion-button:focus {
+  border-color: $primary;
+}
+
+.accordion-button:not(.collapsed) {
+  color: $white;
+  background-color: $primary;
+}
+
+.accordion-button:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.img-ads {
+  width: 100%;
+  margin: auto;
+}

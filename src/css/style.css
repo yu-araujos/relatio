@@ -12132,6 +12132,34 @@ body span {
     font-size: 2rem;
   }
 }
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #E96D0B;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline-color: #E96D0B;
+  padding: 10px;
+  background: transparent;
+}
+.contact-form textarea {
+  height: 100% !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contact-informations h1, .contact-informations .h1 {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
 .title {
   text-transform: uppercase;
 }
@@ -12145,17 +12173,13 @@ body span {
   margin: auto;
 }
 
-.victor-img img {
-  width: 75%;
-  padding-right: 30px;
-  border: 3px solid #F9DAC2;
-  border-radius: 15px;
+.victor-img {
+  width: 90%;
 }
 
 .lista-proposito {
   color: #0C6980;
   font-weight: 600;
-  margin-top: 100px;
 }
 .lista-proposito li {
   position: relative;
@@ -12173,9 +12197,6 @@ body span {
 }
 .lista-proposito li:not(:last-child) {
   margin-bottom: 1rem;
-}
-.lista-proposito li:nth-child(2) {
-  margin-left: 50px;
 }
 
 .text-story p {

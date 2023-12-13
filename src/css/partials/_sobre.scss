@@ -12,18 +12,12 @@
 }
 
 .victor-img {
-  img {
-    width: 75%;
-    padding-right: 30px;
-    border: 3px solid #F9DAC2;
-    border-radius: 15px;
-  }
+  width: 90%;
 }
 
 .lista-proposito {
   color: $secondary;
   font-weight: 600;
-  margin-top: 100px;
   
   li {
     position: relative;
@@ -43,10 +37,6 @@
 
     &:not(:last-child) {
       margin-bottom: 1rem;
-    }
-    
-    &:nth-child(2) {
-      margin-left: 50px;
     }
   }
 }

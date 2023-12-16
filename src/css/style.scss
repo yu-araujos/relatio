@@ -2,7 +2,8 @@
 
 @font-face {
   font-family: "Athena";
-  src: url('../assets/fonts/Athena.ttf')
+  src: url('../assets/fonts/Athena.ttf');
+  font-display: swap;
 }
 
 
@@ -18,6 +19,8 @@ $thirdy: #2D4348;
 
   &:hover {
     background: #FF4900;
+    color: #1A1A1A;
+    font-weight: 700;
     scale: 1.125;
     transition: all .2s ease-in-out;
   }
@@ -36,6 +39,11 @@ body {
   span {
     color: $primary;
   }
+}
+
+img {
+  width: fit-content;
+  height: fit-content;
 }
 
 @import './partials/nav';

@@ -9,7 +9,7 @@
     "build:11ty": "eleventy",
     "watch:11ty": "eleventy --serve",
     "dev": "npm-run-all --parallel watch:*",
-    "build": "npm-run-all build:css build:11ty"
+    "build": "npm-run-all build:11ty build:css"
   },
   "keywords": [],
   "author": "",

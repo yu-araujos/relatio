@@ -1,3 +1,5 @@
+const path = require("path");
+
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/assets");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
@@ -5,7 +7,7 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: "src",
-      output: "public",
+      output: path.resolve(__dirname, "public"),
     },
   };
 };

@@ -9,7 +9,7 @@
     "build:11ty": "eleventy",
     "watch:11ty": "eleventy --serve",
     "dev": "npm-run-all --parallel watch:*",
-    "build": "eleventy && tailwindcss -i ./src/styles/main.css -o ./public/styles/main.css --minify"
+    "build": "mkdir -p public && eleventy && tailwindcss -i ./src/styles/main.css -o ./public/styles/main.css --minify"
   },
   "keywords": [],
   "author": "",
